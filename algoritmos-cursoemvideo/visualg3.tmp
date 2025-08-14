@@ -1,0 +1,19 @@
+Algoritmo "ex011pdf"
+
+Var
+
+   A, B, C: Inteiro
+   Delta: Real
+
+Inicio
+
+      Escreva ("O valor de A: ")
+      Leia (A)
+      Escreva ("O valor de B: ")
+      Leia (B)
+      Escreva ("Agora o C: ")
+      Leia (C)
+      Delta <- B^2-4*A*C
+      Escreva ("O valor de Delta é", Delta)
+
+Fimalgoritmo
