@@ -13,7 +13,7 @@ Inicio
       Leia (B)
       Escreva ("Agora o C: ")
       Leia (C)
-      Delta <- B^2-4*A*C
+      Delta <- (B^2 - 4) * A * C
       Escreva ("O valor de Delta é", Delta)
 
 Fimalgoritmo
