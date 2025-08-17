@@ -18,7 +18,7 @@ Inicio
       
       Escreval ("Total de cigarros fumados:",total_cigarros," cigarros")
       Escreval ("Minutos perdidos:",total_minutos," minutos")
-      Escreval ("Total de Dias de vida perdidos:",vida_perdida," dias")
+      Escreval ("Total de Dias de vida perdidos:",vida_perdida:4," dias")
       
 
        //Calcule quantos dias de vida irá perder e exiba o total em dias
