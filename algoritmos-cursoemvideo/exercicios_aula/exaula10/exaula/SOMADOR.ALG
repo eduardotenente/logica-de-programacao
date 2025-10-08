@@ -16,5 +16,6 @@ Inicio
             Leia (resp)
       Ate (resp = "N")
       Escreval ("A soma de todos os valores digitados é ",S)
+      
 
 Fimalgoritmo
