@@ -24,7 +24,9 @@ Inicio
       FimPara
       
       Para l <- 1 ate 4 faca
-           Maior <- mat[l, 3]
+           Se (mat[l, 3] > Maior) entao
+              Maior <- mat[l, 3]
+           Fimse
       FimPara
       LimpaTela
       
