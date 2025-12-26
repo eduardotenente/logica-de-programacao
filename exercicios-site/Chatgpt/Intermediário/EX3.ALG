@@ -1,35 +1,22 @@
-Algoritmo "ex3"
+Algoritmo "ex8"
 // 
-//  Leia a idade de várias pessoas até que seja informada uma idade negativa.
-//  Calcule e exiba a média das idades válidas e a quantidade de pessoas maiores
-//  de 18 anos.
+// Leia dois números inteiros que representam um intervalo. Exiba todos os
+// números do intervalo que sejam divisíveis por 4, mas não divisíveis por 8.
 //
 Var
 
-   I, C, IT, M18: Inteiro
-   M: Real
+   N: vetor[1..2] de Inteiro
+   C: Inteiro
 
 Inicio
 
-      IT <- 0
-      C <- 0
-      M18 <- 0
+      Escreva ("Digite o início da contagem: ")
+      Leia (N[1])
+      Escreva ("Digite o final da contagem: ")
+      Leia (N[2])
+      
       Repita
-            Escreva ("Informe um idade: ")
-            Leia (I)
-            IT <- IT + I
-            C <- C + 1
-            Se (I >= 18) entao
-               M18 <- M18 + 1
-            Fimse
-            Escreval()
-      Ate (I < 0)
-      M <- IT / C
-      Escreval ("-------------")
-      Escreval (" CALCULANDO")
-      Escreval ("-------------")
-      Escreval ("Média das idades:",M)
-      Escreval()
-      Escreval ("Maiores de 18 anos:",M18)
+            N[1] <- N[1] + 1
+      Ate (N[1] = N[2])
 
 Fimalgoritmo
