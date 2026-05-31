@@ -37,24 +37,44 @@ Inicio
                   Escreval ("Quantidade de Notas de 50:",Notade50)
                Fimse
                
-               Se () entao
-               
+               Se (restante >= 20) entao
+                  QuantidadeNotas <- restante \ 20
+                  valorSaque <- QuantidadeNotas * 20
+                  NovoRestante <- restante - valorSaque
+                  Notade20 <- QuantidadeNotas
+                  Escreval ("Quantidade de Notas de 20:",Notade20)
                Fimse
                
-               Se () entao
-               
+               Se (restante >= 10) entao
+                  QuantidadeNotas <- restante \ 10
+                  valorSaque <- QuantidadeNotas * 10
+                  NovoRestante <- restante - valorSaque
+                  Notade10 <- QuantidadeNotas
+                  Escreval ("Quantidade de Notas de 10:",Notade10)
                Fimse
                
-               Se () entao
-               
+               Se (restante >= 5) entao
+                  QuantidadeNotas <- restante \ 5
+                  valorSaque <- QuantidadeNotas * 5
+                  NovoRestante <- restante - valorSaque
+                  Notade5 <- QuantidadeNotas
+                  Escreval ("Quantidade de Notas de 5:",Notade5)
                Fimse
                
-               Se () entao
-               
+               Se (restante >= 2) entao
+                  QuantidadeNotas <- restante \ 2
+                  valorSaque <- QuantidadeNotas * 2
+                  NovoRestante <- restante - valorSaque
+                  Notade2 <- QuantidadeNotas
+                  Escreval ("Quantidade de Notas de 2:",Notade2)
                Fimse
                
-               Se () entao
-               
+               Se (restante >= 1) entao
+                  QuantidadeNotas <- restante \ 1
+                  valorSaque <- QuantidadeNotas * 1
+                  NovoRestante <- restante - valorSaque
+                  Notade1 <- QuantidadeNotas
+                  Escreval ("Quantidade de Notas de 1:",Notade1)
                Fimse
                
                sobra <- 0
@@ -62,19 +82,3 @@ Inicio
       Escreval("------------------------------------------------")
 
 Fimalgoritmo
-
-// Se (valor = 1) entao
-//         Notade1 <- 1
-//         Escreval ("Notas mínimas necessárias:",Notade1," nota de 1 real")
-//      senao
-//           Se (valor = 2) entao
-//              Notade2 <- 2
-//              Escreval ("Notas mínimas necessárias:",Notade2," nota de 2 reais")
- //          senao
-//                Se (valor <= 5) entao
-//                   Enquanto (SomaValor < valor) entao
-//                            SomaValor <-
-//                   FimEnquanto
-//                Fimse
-//           Fimse
-//      Fimse
